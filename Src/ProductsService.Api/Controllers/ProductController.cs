@@ -98,7 +98,7 @@ public class ProductController : ControllerBase
 
         product.Title = request.Title;
         product.Description = request.Description;
-        product.UpdatedAt = DateTime.UtcNow;
+        product.UpdatedAt = DateTime.Now;
 
         await _productRepository.UpdateAsync(product, cancellationToken);
         await _unitOfWork.SaveChangesAsync(cancellationToken);

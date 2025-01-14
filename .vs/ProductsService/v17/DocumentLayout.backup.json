@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{773CC2E2-BC04-45ED-8FD3-A9B98B167DD0}|Src\\ProductsService.Api\\ProductsService.Api.csproj|solutionrelative:src\\productsservice.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{27C604DD-D543-4450-A73A-99E7B2D1993D}|Src\\ProductsService.Domain\\ProductsService.Domain.csproj|c:\\projects\\laboratoryworks\\backend\\productsservice\\src\\productsservice.domain\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C604DD-D543-4450-A73A-99E7B2D1993D}|Src\\ProductsService.Domain\\ProductsService.Domain.csproj|solutionrelative:src\\productsservice.domain\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{27C604DD-D543-4450-A73A-99E7B2D1993D}|Src\\ProductsService.Domain\\ProductsService.Domain.csproj|c:\\projects\\laboratoryworks\\backend\\productsservice\\src\\productsservice.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{27C604DD-D543-4450-A73A-99E7B2D1993D}|Src\\ProductsService.Domain\\ProductsService.Domain.csproj|solutionrelative:src\\productsservice.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348FDAA2-3D4D-4372-B4D3-4AD501AA49ED}|Src\\ProductsService.Application\\ProductsService.Application.csproj|c:\\projects\\laboratoryworks\\backend\\productsservice\\src\\productsservice.application\\requests\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348FDAA2-3D4D-4372-B4D3-4AD501AA49ED}|Src\\ProductsService.Application\\ProductsService.Application.csproj|solutionrelative:src\\productsservice.application\\requests\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +26,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Projects\\LaboratoryWorks\\Backend\\ProductsService\\Src\\ProductsService.Domain\\Entities\\Base\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Src\\ProductsService.Domain\\Entities\\Base\\BaseEntity.cs",
+              "ToolTip": "C:\\Projects\\LaboratoryWorks\\Backend\\ProductsService\\Src\\ProductsService.Domain\\Entities\\Base\\BaseEntity.cs",
+              "RelativeToolTip": "Src\\ProductsService.Domain\\Entities\\Base\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T20:10:04.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Projects\\LaboratoryWorks\\Backend\\ProductsService\\Src\\ProductsService.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Src\\ProductsService.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Projects\\LaboratoryWorks\\Backend\\ProductsService\\Src\\ProductsService.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Src\\ProductsService.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T20:10:01.004Z"
             },
             {
               "$type": "Document",
@@ -32,23 +65,22 @@
               "RelativeDocumentMoniker": "Src\\ProductsService.Api\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Projects\\LaboratoryWorks\\Backend\\ProductsService\\Src\\ProductsService.Api\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Src\\ProductsService.Api\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAqwEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwGQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T19:07:42.57Z",
+              "WhenOpened": "2025-01-14T20:09:46.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Projects\\LaboratoryWorks\\Backend\\ProductsService\\Src\\ProductsService.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Src\\ProductsService.Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Projects\\LaboratoryWorks\\Backend\\ProductsService\\Src\\ProductsService.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "Src\\ProductsService.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CreateProductRequest.cs",
+              "DocumentMoniker": "C:\\Projects\\LaboratoryWorks\\Backend\\ProductsService\\Src\\ProductsService.Application\\Requests\\CreateProductRequest.cs",
+              "RelativeDocumentMoniker": "Src\\ProductsService.Application\\Requests\\CreateProductRequest.cs",
+              "ToolTip": "C:\\Projects\\LaboratoryWorks\\Backend\\ProductsService\\Src\\ProductsService.Application\\Requests\\CreateProductRequest.cs",
+              "RelativeToolTip": "Src\\ProductsService.Application\\Requests\\CreateProductRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T19:06:24.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T20:09:28.937Z"
             }
           ]
         }
