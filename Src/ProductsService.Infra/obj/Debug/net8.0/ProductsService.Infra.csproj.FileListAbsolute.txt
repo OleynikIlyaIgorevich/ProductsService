@@ -1,0 +1,17 @@
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\bin\Debug\net8.0\ProductsService.Infra.deps.json
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\bin\Debug\net8.0\ProductsService.Infra.dll
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\bin\Debug\net8.0\ProductsService.Infra.pdb
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\bin\Debug\net8.0\ProductsService.Application.dll
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\bin\Debug\net8.0\ProductsService.Domain.dll
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\bin\Debug\net8.0\ProductsService.Application.pdb
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\bin\Debug\net8.0\ProductsService.Domain.pdb
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\obj\Debug\net8.0\ProductsService.Infra.csproj.AssemblyReference.cache
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\obj\Debug\net8.0\ProductsService.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\obj\Debug\net8.0\ProductsService.Infra.AssemblyInfoInputs.cache
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\obj\Debug\net8.0\ProductsService.Infra.AssemblyInfo.cs
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\obj\Debug\net8.0\ProductsService.Infra.csproj.CoreCompileInputs.cache
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\obj\Debug\net8.0\Products.25B1D769.Up2Date
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\obj\Debug\net8.0\ProductsService.Infra.dll
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\obj\Debug\net8.0\refint\ProductsService.Infra.dll
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\obj\Debug\net8.0\ProductsService.Infra.pdb
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\obj\Debug\net8.0\ref\ProductsService.Infra.dll

@@ -1,0 +1,14 @@
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\bin\Debug\net8.0\ProductsService.Domain.deps.json
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\bin\Debug\net8.0\ProductsService.Domain.runtimeconfig.json
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\bin\Debug\net8.0\ProductsService.Domain.dll
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\bin\Debug\net8.0\ProductsService.Domain.pdb
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\obj\Debug\net8.0\ProductsService.Domain.csproj.AssemblyReference.cache
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\obj\Debug\net8.0\ProductsService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\obj\Debug\net8.0\ProductsService.Domain.AssemblyInfoInputs.cache
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\obj\Debug\net8.0\ProductsService.Domain.AssemblyInfo.cs
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\obj\Debug\net8.0\ProductsService.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\obj\Debug\net8.0\ProductsService.Domain.dll
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\obj\Debug\net8.0\refint\ProductsService.Domain.dll
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\obj\Debug\net8.0\ProductsService.Domain.pdb
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\obj\Debug\net8.0\ProductsService.Domain.genruntimeconfig.cache
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\obj\Debug\net8.0\ref\ProductsService.Domain.dll
