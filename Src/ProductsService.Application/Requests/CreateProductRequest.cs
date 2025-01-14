@@ -2,5 +2,4 @@
 
 public record CreateProductRequest(
     string Title,
-    string? Description,
-    string AuthorAppName);
+    string? Description);

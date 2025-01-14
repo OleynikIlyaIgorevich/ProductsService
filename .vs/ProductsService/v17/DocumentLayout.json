@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Projects\\LaboratoryWorks\\Backend\\ProductsService\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{773CC2E2-BC04-45ED-8FD3-A9B98B167DD0}|Src\\ProductsService.Api\\ProductsService.Api.csproj|c:\\projects\\laboratoryworks\\backend\\productsservice\\src\\productsservice.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{773CC2E2-BC04-45ED-8FD3-A9B98B167DD0}|Src\\ProductsService.Api\\ProductsService.Api.csproj|solutionrelative:src\\productsservice.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27C604DD-D543-4450-A73A-99E7B2D1993D}|Src\\ProductsService.Domain\\ProductsService.Domain.csproj|c:\\projects\\laboratoryworks\\backend\\productsservice\\src\\productsservice.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27C604DD-D543-4450-A73A-99E7B2D1993D}|Src\\ProductsService.Domain\\ProductsService.Domain.csproj|solutionrelative:src\\productsservice.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Projects\\LaboratoryWorks\\Backend\\ProductsService\\Src\\ProductsService.Api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Src\\ProductsService.Api\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Projects\\LaboratoryWorks\\Backend\\ProductsService\\Src\\ProductsService.Api\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Src\\ProductsService.Api\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T19:07:42.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Projects\\LaboratoryWorks\\Backend\\ProductsService\\Src\\ProductsService.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Src\\ProductsService.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Projects\\LaboratoryWorks\\Backend\\ProductsService\\Src\\ProductsService.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Src\\ProductsService.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T19:06:24.728Z"
             }
           ]
         }

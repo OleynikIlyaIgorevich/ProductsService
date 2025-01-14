@@ -2,5 +2,4 @@
 
 public record UpdateProductRequest(
     string Title,
-    string? Description,
-    string AuthorAppName);
+    string? Description);

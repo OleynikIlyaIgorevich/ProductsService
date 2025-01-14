@@ -30,10 +30,6 @@ namespace ProductsService.Domain.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("AuthorAppName")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime(6)");
 

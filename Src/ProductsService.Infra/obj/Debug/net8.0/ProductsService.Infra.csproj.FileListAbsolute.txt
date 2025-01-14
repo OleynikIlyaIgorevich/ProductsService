@@ -10,6 +10,7 @@ C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\ob
 C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\obj\Debug\net8.0\ProductsService.Infra.AssemblyInfoInputs.cache
 C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\obj\Debug\net8.0\ProductsService.Infra.AssemblyInfo.cs
 C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\obj\Debug\net8.0\ProductsService.Infra.csproj.CoreCompileInputs.cache
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\obj\Debug\net8.0\ProductsService.Infra.sourcelink.json
 C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\obj\Debug\net8.0\Products.25B1D769.Up2Date
 C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\obj\Debug\net8.0\ProductsService.Infra.dll
 C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Infra\obj\Debug\net8.0\refint\ProductsService.Infra.dll

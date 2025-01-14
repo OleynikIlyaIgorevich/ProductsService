@@ -4,4 +4,5 @@ public record ProductResponse(
     int Id,
     string Title,
     string? Description,
-    string Author);
+    DateTime CreatedAt,
+    DateTime? UpdatedAt);

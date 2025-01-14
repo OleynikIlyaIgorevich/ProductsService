@@ -12,7 +12,7 @@ using ProductsService.Domain.DbContexts;
 namespace ProductsService.Domain.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250114182310_InitialCreate")]
+    [Migration("20250114191229_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -32,10 +32,6 @@ namespace ProductsService.Domain.Migrations
                         .HasColumnType("int");
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("AuthorAppName")
-                        .IsRequired()
-                        .HasColumnType("longtext");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime(6)");

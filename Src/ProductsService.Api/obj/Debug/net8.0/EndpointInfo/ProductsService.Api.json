@@ -263,10 +263,6 @@
           "description": {
             "type": "string",
             "nullable": true
-          },
-          "authorAppName": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -306,10 +302,6 @@
             "nullable": true
           },
           "description": {
-            "type": "string",
-            "nullable": true
-          },
-          "authorAppName": {
             "type": "string",
             "nullable": true
           }

@@ -27,7 +27,8 @@ public class ProductController : ControllerBase
                     product.Id,
                     product.Title,
                     product.Description,
-                    product.AuthorAppName));
+                    product.CreatedAt,
+                    product.UpdatedAt));
 
         return Ok(productsResponse);
     }
@@ -49,7 +50,8 @@ public class ProductController : ControllerBase
             product.Id,
             product.Title,
             product.Description,
-            product.AuthorAppName);
+            product.CreatedAt,
+            product.UpdatedAt);
 
         return Ok(productResponse);
     }
@@ -63,10 +65,11 @@ public class ProductController : ControllerBase
     {
 
 
-        var isExistByTitle = await _productRepository.IsExistByTitleAsync(request.Title, cancellationToken);
-        if (isExistByTitle) return BadRequest();
 
-        var product = new Product(request.Title, request.Description, request.AuthorAppName);
+        var isExistByTitle = await _productRepository.IsExistByTitleAsync(request.Title, cancellationToken);
+        if (isExistByTitle) return BadRequest("Товар с данным заголовком уже существует!");
+
+        var product = new Product(request.Title, request.Description);
 
         await _productRepository.AddAsync(product, cancellationToken);
         await _unitOfWork.SaveChangesAsync(cancellationToken);
@@ -85,15 +88,16 @@ public class ProductController : ControllerBase
     {
         if (productId == default) return BadRequest("Идентификатор не валиден!");
 
+
+
         var product = await _productRepository.GetByIdAsync(productId, cancellationToken);
         if (product == null) return NotFound("Товар с данным идентификатором не найден!");
 
         var isExistForUpdateByTitle = await _productRepository.IsExistForUpdateByTitleAsync(productId, request.Title, cancellationToken);
-        if (isExistForUpdateByTitle) return BadRequest();
+        if (isExistForUpdateByTitle) return BadRequest("Товар с данным заголовком уже существует!");
 
         product.Title = request.Title;
         product.Description = request.Description;
-        product.AuthorAppName = request.AuthorAppName;
         product.UpdatedAt = DateTime.UtcNow;
 
         await _productRepository.UpdateAsync(product, cancellationToken);

@@ -7,6 +7,7 @@ C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\o
 C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\obj\Debug\net8.0\ProductsService.Domain.AssemblyInfoInputs.cache
 C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\obj\Debug\net8.0\ProductsService.Domain.AssemblyInfo.cs
 C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\obj\Debug\net8.0\ProductsService.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\obj\Debug\net8.0\ProductsService.Domain.sourcelink.json
 C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\obj\Debug\net8.0\ProductsService.Domain.dll
 C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\obj\Debug\net8.0\refint\ProductsService.Domain.dll
 C:\Projects\LaboratoryWorks\Backend\ProductsService\Src\ProductsService.Domain\obj\Debug\net8.0\ProductsService.Domain.pdb
