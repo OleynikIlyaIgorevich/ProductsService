@@ -6,7 +6,7 @@ internal static class ServiceCollectionExtensions
     {
         services.AddSwaggerGen(option =>
         {
-            option.SwaggerDoc("v1", new OpenApiInfo { Title = "UsersService API", Version = "v1" });
+            option.SwaggerDoc("v1", new OpenApiInfo { Title = "ProductsService API", Version = "v1" });
             option.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
             {
                 In = ParameterLocation.Header,
