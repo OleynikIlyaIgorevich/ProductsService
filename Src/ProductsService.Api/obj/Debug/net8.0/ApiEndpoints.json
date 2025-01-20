@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "ProductsService.Application.Responses.ProductResponse",
+        "Type": "System.Collections.Generic.List\u00601[[ProductsService.Application.Responses.ProductResponse, ProductsService.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

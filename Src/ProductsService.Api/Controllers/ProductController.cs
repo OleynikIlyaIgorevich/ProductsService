@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc.RazorPages;
-
-namespace ProductsService.Api.Controllers;
+﻿namespace ProductsService.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -18,7 +16,7 @@ public class ProductController : ControllerBase
     }
 
     [HttpGet]
-    [ProducesResponseType<ProductResponse>(StatusCodes.Status200OK)]
+    [ProducesResponseType<List<ProductResponse>>(StatusCodes.Status200OK)]
     public async Task<IActionResult> GetAllAsync(
         CancellationToken cancellationToken = default)
     {
@@ -36,7 +34,6 @@ public class ProductController : ControllerBase
     }
 
     [HttpGet("{productId:int}")]
-    [ActionName(nameof(GetByIdAsync))]
     [ProducesResponseType<ProductResponse>(StatusCodes.Status200OK)]
     [ProducesResponseType<string>(StatusCodes.Status400BadRequest)]
     [ProducesResponseType<string>(StatusCodes.Status404NotFound)]
