@@ -17,7 +17,7 @@ public interface IRepository<TEntity, TId>
         bool asTracking = default);
 
 
-    Task AddAsync(TEntity entity, CancellationToken cancellationToken);
+    Task<TEntity> AddAsync(TEntity entity, CancellationToken cancellationToken);
 
     Task UpdateAsync(TEntity entity, CancellationToken cancellationToken);
 

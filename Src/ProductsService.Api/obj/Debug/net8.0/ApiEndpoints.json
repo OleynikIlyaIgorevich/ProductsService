@@ -9,8 +9,12 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "ProductsService.Application.Responses.ProductResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
@@ -31,12 +35,16 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "ProductsService.Domain.Entities.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 201
       },
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -62,12 +70,16 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "Type": "ProductsService.Application.Responses.ProductResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       },
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -76,7 +88,7 @@
         "StatusCode": 400
       },
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -112,7 +124,7 @@
         "StatusCode": 204
       },
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -121,7 +133,7 @@
         "StatusCode": 404
       },
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -152,7 +164,7 @@
         "StatusCode": 204
       },
       {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",

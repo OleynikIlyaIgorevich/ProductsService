@@ -44,8 +44,11 @@ public abstract class Repository<TEntity, TId>
     }
 
 
-    public virtual async Task AddAsync(TEntity entity, CancellationToken cancellationToken)
-        => await _dbSet.AddAsync(entity, cancellationToken);
+    public virtual async Task<TEntity> AddAsync(TEntity entity, CancellationToken cancellationToken)
+    {
+        var createResult = await _dbSet.AddAsync(entity, cancellationToken);
+        return createResult.Entity;
+    }
 
 
     public virtual Task UpdateAsync(TEntity entity, CancellationToken cancellationToken)
