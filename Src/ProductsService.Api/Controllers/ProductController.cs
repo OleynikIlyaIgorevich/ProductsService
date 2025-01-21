@@ -111,6 +111,7 @@ public class ProductController : ControllerBase
 
     [HttpDelete("{productId:int}")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType<string>(StatusCodes.Status404NotFound)]
     [ProducesResponseType<string>(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> DeleteAsync(
         int productId,
